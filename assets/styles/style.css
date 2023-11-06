@@ -1,0 +1,261 @@
+a {
+  color: green;
+  font-family: cursive;
+  font-size: 2rem;
+}
+
+.fon-img1 {
+  width: 95vw;
+  height: 105vh;
+  background-image: url(../img/mountains.jpg), url(../img/girlWihtPhone.png);
+  background-size: 200px 200px, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top;
+}
+
+.fon-img2 {
+  width: 95vw;
+  height: 110vh;
+  background-image: url(../img/girlWihtPhone.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fon-img3 {
+  background-image: url(../img/teddy.jpg);
+  background-size: 200px 200px;
+  background-repeat: repeat;
+}
+
+.fon-img4 {
+  margin-top: 8rem;
+  width: max-content;
+  height: max-content;
+}
+
+.conteiner {
+  width: 100vw;
+  max-width: 1280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.darkorchid-color {
+  color: darkorchid;
+}
+.new-text {
+  font-size: 2rem;
+  color: blue;
+}
+
+.fon-color-aquamarine p {
+  background-color: aquamarine;
+  padding: 7px;
+}
+
+.red-title {
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+
+.cursor1:hover {
+  text-decoration: none;
+  color: #00bfff;
+}
+
+.cursor2:hover img {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.flower-marker {
+  width: max-content;
+  padding: 1rem 4rem;
+  background-color: aquamarine;
+  font-size: 40px;
+  padding-left: 4rem;
+  background-image: url(../img/flower.jpg);
+  background-position: 0.3em 0.4em;
+  background-size: 2.5rem;
+  background-repeat: no-repeat;
+}
+.flower-marker1 {
+  width: max-content;
+  margin: 8px 6px;
+  padding: 0.5em 1.3em;
+  background-color: burlywood;
+  font-size: 0.5em;
+  padding-left: 2em;
+  background-image: url(../img/flower1.jpg);
+  background-position: 0.4em 0.4em;
+  background-size: 1.3em 1.3em;
+  background-repeat: no-repeat;
+}
+.flower-marker2 {
+  width: max-content;
+  margin: 8px 6px;
+  padding: 0.5em 1.3em;
+  background-color: burlywood;
+  font-size: 0.5em;
+  padding-left: 2em;
+  background-image: url(../img/flower2.jpg);
+  background-position: 0.4em 0.4em;
+  background-size: 1.3em 1.3em;
+  background-repeat: no-repeat;
+}
+
+.toy-marker {
+  width: max-content;
+  padding: 1rem 4rem;
+  background-color: aquamarine;
+  font-size: 40px;
+  padding-left: 4rem;
+  background-image: url(../img/toy.png);
+  background-position: 0.3em 0.4em;
+  background-size: 2.5rem;
+  background-repeat: no-repeat;
+}
+
+.toy-marker1 {
+  width: max-content;
+  margin: 8px 6px;
+  padding: 0.5em 1.3em;
+  background-color: burlywood;
+  font-size: 0.5em;
+  padding-left: 2em;
+  background-image: url(../img/toy.png);
+  background-position: 0.4em 0.4em;
+  background-size: 1.3em 1.3em;
+  background-repeat: no-repeat;
+}
+
+.toy-marker2 {
+  width: max-content;
+  margin: 8px 6px;
+  padding: 0.5em 1.3em;
+  background-color: burlywood;
+  font-size: 0.5em;
+  padding-left: 2em;
+  background-image: url(../img/toy1.jfif);
+  background-position: 0.4em 0.4em;
+  background-size: 1.3em 1.3em;
+  background-repeat: no-repeat;
+}
+
+.book-marker {
+  width: max-content;
+  padding: 1rem 4rem;
+  background-color: aquamarine;
+  font-size: 40px;
+  padding-left: 4rem;
+  background-image: url(../img/book.png);
+  background-position: 0.3em 0.4em;
+  background-size: 2.5rem 2.8rem;
+  background-repeat: no-repeat;
+}
+
+.book-marker1 {
+  width: max-content;
+  margin: 8px 6px;
+  padding: 0.5em 1.3em;
+  background-color: burlywood;
+  font-size: 0.5em;
+  padding-left: 2em;
+  background-image: url(../img/book.png);
+  background-position: 0.4em 0.4em;
+  background-size: 1.3em 1.3em;
+  background-repeat: no-repeat;
+}
+
+.book-marker2 {
+  width: max-content;
+  margin: 8px 6px;
+  padding: 0.5em 1.3em;
+  background-color: burlywood;
+  font-size: 0.5em;
+  padding-left: 2em;
+  background-image: url(../img/book.png);
+  background-position: 0.4em 0.4em;
+  background-size: 1.3em 1.3em;
+  background-repeat: no-repeat;
+}
+
+.leibel-new::after {
+  content: "new";
+  color: red;
+  background-color: yellow;
+  font-size: 90%;
+  padding: 0 0.2em;
+}
+
+.border-img img {
+  border-color: red;
+  border-width: 20px;
+  border-bottom-style: inset;
+  border-left-style: inset;
+  border-right-style: inset;
+  border-top-style: inset;
+}
+
+.capital-literal p::first-letter {
+  font-size: 2.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: red;
+  padding: 2px;
+}
+
+.text-in-centr {
+  text-align: center;
+}
+
+.footer-M {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: red;
+  font-size: 20px;
+  margin: 2rem 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+fieldset {
+  max-width: 500px;
+  margin: 25px auto;
+  background-color: rgb(64, 131, 220);
+}
+
+select,
+input {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+input[type="file"] {
+  padding: 0;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px 20px;
+  resize: vertical;
+  min-height: 75px;
+  max-height: 33vh;
+}
+
+legend {
+  transform: translateY(-10px);
+}
+
+.form-group:not(:first-of-type) {
+  margin: 15px 0 5px;
+}
+
+.form-group-sm {
+  margin: 10px 0 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 20px;
+}
